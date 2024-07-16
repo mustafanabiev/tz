@@ -182,7 +182,6 @@ class ProfilePage extends StatelessWidget {
                                           ),
                                         )
                                       : const SizedBox(),
-                                  const SizedBox(height: 16),
                                   PopupMenu(isProfile: state.isAuth),
                                   SizedBox(height: !state.isAuth ? 16 : 0),
                                   !state.isAuth
